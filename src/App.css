@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(41, 40, 40);
+}
+.logo > img {
+  width: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav {
+  border-radius: 6px;
+  background-color: black;
+  padding: 20px 30px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 32px;
+  color: rgb(20, 231, 255);
+  font-weight: 600;
+}
+
+h1,
+h3 {
+  color: aliceblue;
+}
+
+.heading {
+  font-size: 42px;
+  margin: 70px 0px 50px 30px;
+  font-weight: 700;
+}
+
+.facts-list > li {
+  padding-block: 20px;
+  font-size: 20px;
+  color: aliceblue;
+  list-style: disc;
+}
+.facts-list {
+  max-width: 600px;
+  line-height: 20px;
+  margin-top: 46px;
+  margin-left: 60px;
+}
+.facts-list > li::marker {
+  font-size: 2.2rem;
+  color: rgb(0, 204, 255);
+}
+
+main {
+  background-image: url("./images/react-2749331-2284721.png");
+  background-repeat: no-repeat;
+  background-position-x: 110%;
+  background-position-y: 110%;
 }
