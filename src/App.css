@@ -69,3 +69,42 @@ main {
   background-position-x: 110%;
   background-position-y: 110%;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav h3 {
+    display: none;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  main {
+    background-image: url("./images/react-2749331-2284721.png");
+    background-repeat: no-repeat;
+    background-position-x: 130%;
+    background-position-y: 105%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main {
+    background-image: url("./images/react-2749331-2284721.png");
+    background-repeat: no-repeat;
+    background-position-x: 110%;
+    background-position-y: 105%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    background-image: url("./images/react-2749331-2284721.png");
+    background-repeat: no-repeat;
+    background-position-x: 110%;
+    background-position-y: 105%;
+  }
+}
+
+/* @media only screen and (min-width: 600px) {
+  .nav h3 {
+    display: none;
+  }
+} */
